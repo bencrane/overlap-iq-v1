@@ -1,0 +1,447 @@
+[
+  {
+    "table_name": "clay_person_enrichment_certifications_data",
+    "column_name": "id",
+    "data_type": "uuid"
+  },
+  {
+    "table_name": "clay_person_enrichment_certifications_data",
+    "column_name": "person_id",
+    "data_type": "uuid"
+  },
+  {
+    "table_name": "clay_person_enrichment_certifications_data",
+    "column_name": "title",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_certifications_data",
+    "column_name": "company_name",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_certifications_data",
+    "column_name": "company_id",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_certifications_data",
+    "column_name": "date",
+    "data_type": "date"
+  },
+  {
+    "table_name": "clay_person_enrichment_certifications_data",
+    "column_name": "credential_id",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_certifications_data",
+    "column_name": "verify_url",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_certifications_data",
+    "column_name": "summary",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_certifications_data",
+    "column_name": "created_at",
+    "data_type": "timestamp with time zone"
+  },
+  {
+    "table_name": "clay_person_enrichment_certifications_data",
+    "column_name": "updated_at",
+    "data_type": "timestamp with time zone"
+  },
+  {
+    "table_name": "clay_person_enrichment_education_data",
+    "column_name": "id",
+    "data_type": "uuid"
+  },
+  {
+    "table_name": "clay_person_enrichment_education_data",
+    "column_name": "person_id",
+    "data_type": "uuid"
+  },
+  {
+    "table_name": "clay_person_enrichment_education_data",
+    "column_name": "school_name",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_education_data",
+    "column_name": "degree",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_education_data",
+    "column_name": "field_of_study",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_education_data",
+    "column_name": "grade",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_education_data",
+    "column_name": "activities",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_education_data",
+    "column_name": "start_date",
+    "data_type": "date"
+  },
+  {
+    "table_name": "clay_person_enrichment_education_data",
+    "column_name": "end_date",
+    "data_type": "date"
+  },
+  {
+    "table_name": "clay_person_enrichment_education_data",
+    "column_name": "created_at",
+    "data_type": "timestamp with time zone"
+  },
+  {
+    "table_name": "clay_person_enrichment_education_data",
+    "column_name": "updated_at",
+    "data_type": "timestamp with time zone"
+  },
+  {
+    "table_name": "clay_person_enrichment_flattened_data",
+    "column_name": "id",
+    "data_type": "uuid"
+  },
+  {
+    "table_name": "clay_person_enrichment_flattened_data",
+    "column_name": "dob",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_flattened_data",
+    "column_name": "org",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_flattened_data",
+    "column_name": "url",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_flattened_data",
+    "column_name": "name",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_flattened_data",
+    "column_name": "slug",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_flattened_data",
+    "column_name": "title",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_flattened_data",
+    "column_name": "awards",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_flattened_data",
+    "column_name": "country",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_flattened_data",
+    "column_name": "courses",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_flattened_data",
+    "column_name": "summary",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_flattened_data",
+    "column_name": "user_id",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_flattened_data",
+    "column_name": "headline",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_flattened_data",
+    "column_name": "projects",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_flattened_data",
+    "column_name": "languages",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_flattened_data",
+    "column_name": "last_name",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_flattened_data",
+    "column_name": "person_id",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_flattened_data",
+    "column_name": "first_name",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_flattened_data",
+    "column_name": "jobs_count",
+    "data_type": "integer"
+  },
+  {
+    "table_name": "clay_person_enrichment_flattened_data",
+    "column_name": "profile_id",
+    "data_type": "bigint"
+  },
+  {
+    "table_name": "clay_person_enrichment_flattened_data",
+    "column_name": "connections",
+    "data_type": "integer"
+  },
+  {
+    "table_name": "clay_person_enrichment_flattened_data",
+    "column_name": "last_refresh",
+    "data_type": "timestamp with time zone"
+  },
+  {
+    "table_name": "clay_person_enrichment_flattened_data",
+    "column_name": "others_named",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_flattened_data",
+    "column_name": "publications",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_flattened_data",
+    "column_name": "volunteering",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_flattened_data",
+    "column_name": "location_name",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_flattened_data",
+    "column_name": "num_followers",
+    "data_type": "integer"
+  },
+  {
+    "table_name": "clay_person_enrichment_flattened_data",
+    "column_name": "patents",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_flattened_data",
+    "column_name": "picture_url_copy",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_flattened_data",
+    "column_name": "picture_url_orig",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_flattened_data",
+    "column_name": "people_also_viewed",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_flattened_data",
+    "column_name": "latest_experience_url",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_flattened_data",
+    "column_name": "latest_experience_title",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_flattened_data",
+    "column_name": "latest_experience_company",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_flattened_data",
+    "column_name": "latest_experience_company_domain",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_flattened_data",
+    "column_name": "latest_experience_org_id",
+    "data_type": "bigint"
+  },
+  {
+    "table_name": "clay_person_enrichment_flattened_data",
+    "column_name": "latest_experience_start_date",
+    "data_type": "date"
+  },
+  {
+    "table_name": "clay_person_enrichment_flattened_data",
+    "column_name": "latest_experience_end_date",
+    "data_type": "date"
+  },
+  {
+    "table_name": "clay_person_enrichment_flattened_data",
+    "column_name": "latest_experience_locality",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_flattened_data",
+    "column_name": "latest_experience_is_current",
+    "data_type": "boolean"
+  },
+  {
+    "table_name": "clay_person_enrichment_flattened_data",
+    "column_name": "latest_experience_summary",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_flattened_data",
+    "column_name": "created_at",
+    "data_type": "timestamp with time zone"
+  },
+  {
+    "table_name": "clay_person_enrichment_flattened_data",
+    "column_name": "updated_at",
+    "data_type": "timestamp with time zone"
+  },
+  {
+    "table_name": "clay_person_enrichment_raw_payloads",
+    "column_name": "id",
+    "data_type": "uuid"
+  },
+  {
+    "table_name": "clay_person_enrichment_raw_payloads",
+    "column_name": "linkedin_url",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_raw_payloads",
+    "column_name": "name",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_raw_payloads",
+    "column_name": "first_name",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_raw_payloads",
+    "column_name": "last_name",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_raw_payloads",
+    "column_name": "raw_payload",
+    "data_type": "jsonb"
+  },
+  {
+    "table_name": "clay_person_enrichment_raw_payloads",
+    "column_name": "received_at",
+    "data_type": "timestamp with time zone"
+  },
+  {
+    "table_name": "clay_person_enrichment_raw_payloads",
+    "column_name": "created_at",
+    "data_type": "timestamp with time zone"
+  },
+  {
+    "table_name": "clay_person_enrichment_raw_payloads",
+    "column_name": "updated_at",
+    "data_type": "timestamp with time zone"
+  },
+  {
+    "table_name": "clay_person_enrichment_work_history_data",
+    "column_name": "id",
+    "data_type": "uuid"
+  },
+  {
+    "table_name": "clay_person_enrichment_work_history_data",
+    "column_name": "person_id",
+    "data_type": "uuid"
+  },
+  {
+    "table_name": "clay_person_enrichment_work_history_data",
+    "column_name": "company_linkedin_url",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_work_history_data",
+    "column_name": "title",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_work_history_data",
+    "column_name": "company",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_work_history_data",
+    "column_name": "company_domain",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_work_history_data",
+    "column_name": "org_id",
+    "data_type": "bigint"
+  },
+  {
+    "table_name": "clay_person_enrichment_work_history_data",
+    "column_name": "company_id",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_work_history_data",
+    "column_name": "start_date",
+    "data_type": "date"
+  },
+  {
+    "table_name": "clay_person_enrichment_work_history_data",
+    "column_name": "end_date",
+    "data_type": "date"
+  },
+  {
+    "table_name": "clay_person_enrichment_work_history_data",
+    "column_name": "is_current",
+    "data_type": "boolean"
+  },
+  {
+    "table_name": "clay_person_enrichment_work_history_data",
+    "column_name": "locality",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_work_history_data",
+    "column_name": "summary",
+    "data_type": "text"
+  },
+  {
+    "table_name": "clay_person_enrichment_work_history_data",
+    "column_name": "created_at",
+    "data_type": "timestamp with time zone"
+  },
+  {
+    "table_name": "clay_person_enrichment_work_history_data",
+    "column_name": "updated_at",
+    "data_type": "timestamp with time zone"
+  }
+]
