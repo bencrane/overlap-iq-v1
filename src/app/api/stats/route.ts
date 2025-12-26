@@ -13,7 +13,7 @@ export async function GET() {
     // Get companies with customers (distinct company_ids in company_customers)
     const { data: companiesWithCustomers } = await supabase
       .from('company_customers')
-      .select('company_id')
+      .select('company_id') as { data: { company_id: string }[] | null }
 
     const uniqueCompaniesWithCustomers = new Set(
       companiesWithCustomers?.map(c => c.company_id) || []

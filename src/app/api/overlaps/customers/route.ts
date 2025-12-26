@@ -20,11 +20,11 @@ export async function GET(request: NextRequest) {
       .from('company_customers')
       .select('id, customer_company, customer_company_domain')
       .eq('company_id', companyId)
-      .order('customer_company')
+      .order('customer_company') as { data: { id: string; customer_company: string; customer_company_domain: string | null }[] | null; error: unknown }
 
     if (customersError) {
       console.error('Error fetching customers:', customersError)
-      return NextResponse.json({ error: customersError.message }, { status: 500 })
+      return NextResponse.json({ error: String(customersError) }, { status: 500 })
     }
 
     if (!customers || customers.length === 0) {

@@ -7,7 +7,7 @@ export async function GET() {
 
     // Use the efficient SQL function
     const { data: employers, error } = await supabase
-      .rpc('get_top_past_employers', { limit_count: 500 })
+      .rpc('get_top_past_employers', { limit_count: 500 } as unknown as undefined)
 
     if (error) {
       console.error('Error fetching employers summary:', error)
